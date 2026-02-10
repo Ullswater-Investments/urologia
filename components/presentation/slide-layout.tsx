@@ -55,12 +55,12 @@ export function SlideLayout({
             Espacio de Datos Federado
           </span>
           <a
-            href="https://www.biotecnologia.globaldatacare.es"
+            href="https://www.urologia.globaldatacare.es"
             target="_blank"
             rel="noopener noreferrer"
             className="text-xs font-medium text-[hsl(213,80%,45%)] underline decoration-[hsl(213,80%,45%,0.4)] underline-offset-2 transition-colors hover:text-[hsl(213,80%,55%)]"
           >
-            www.biotecnologia.globaldatacare.es
+            www.urologia.globaldatacare.es
           </a>
         </div>
         {slideNumber && totalSlides && (
