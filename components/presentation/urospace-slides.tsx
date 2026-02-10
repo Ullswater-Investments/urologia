@@ -936,9 +936,9 @@ export function UroSlideFinanciacion() {
           <div className="flex items-start gap-3">
             <Euro className="mt-0.5 h-5 w-5 shrink-0 text-[hsl(45,85%,42%)]" />
             <div>
-              <h3 className="mb-2 text-base font-semibold text-[hsl(220,25%,12%)]">Entidades Beneficiarias</h3>
+              <h3 className="mb-2 text-base font-semibold text-[hsl(220,25%,12%)]">6.1. Elegibilidad y Cuant{"í"}as</h3>
               <p className="text-base leading-relaxed text-[hsl(220,15%,30%)]">
-                Tanto la AEU/FIU (como organismo de investigaci{"ó"}n/profesional sin {"á"}nimo de lucro, CNAE 9412) como los hospitales p{"ú"}blicos y privados son elegibles, siempre que ejerzan actividad econ{"ó"}mica y tengan madurez digital.
+                <strong>Entidades Beneficiarias:</strong> Tanto la AEU/FIU (como organismo de investigaci{"ó"}n/profesional sin {"á"}nimo de lucro, CNAE 9412) como los hospitales p{"ú"}blicos y privados son elegibles, siempre que ejerzan actividad econ{"ó"}mica y tengan madurez digital.
               </p>
             </div>
           </div>
@@ -987,7 +987,7 @@ export function UroSlideGastosElegibles() {
 
       <div className="flex flex-1 flex-col gap-5 pb-4">
         <p className="text-base leading-relaxed text-[hsl(220,15%,35%)] md:text-lg">
-          La subvenci{"ó"}n cubre costes cr{"í"}ticos para el despliegue:
+          La subvenci{"ó"}n cubre costes cr{"í"}ticos para el despliegue (Programa Kit Espacios de Datos | Espa{"ñ"}a Digital 2026):
         </p>
 
         <div className="grid gap-4 md:grid-cols-3">
@@ -1238,15 +1238,15 @@ export function UroSlideObrasCitadas1() {
 
       <div className="flex flex-1 flex-col gap-3 pb-4">
         {[
-          { num: "1", text: "Junta Directiva - Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa", url: "https://aeu.es/jdirectiva.aspx" },
-          { num: "2", text: "ACTA JUNTA PATRONATO DE LA FIU - AEU", url: "https://aeu.es/UserFiles/EstatutosFIU.pdf" },
-          { num: "3", text: "Proyectos - Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa. Plataforma Investigaci\u00F3n de Estudios Multic\u00E9ntricos de la AEU.", url: "https://piem.aeu.es/Proyectos.aspx" },
-          { num: "4", text: "Gaia-X Domain Health - Bundeswirtschaftsministerium.de", url: "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Digitale-Welt/211116-pp-health.pdf?__blob=publicationFile&v=1" },
-          { num: "5", text: "Getting ready for the European Health Data Space (EHDS): IDERHA\u2019s plan - Open Research Europe", url: "https://open-research-europe.ec.europa.eu/articles/4-160" },
+          { num: "1", text: "Junta Directiva - Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa, fecha de acceso: febrero 10, 2026", url: "https://aeu.es/jdirectiva.aspx" },
+          { num: "2", text: "ACTA JUNTA PATRONATO DE LA FIU - AEU, fecha de acceso: febrero 10, 2026", url: "https://aeu.es/UserFiles/EstatutosFIU.pdf" },
+          { num: "3", text: "Proyectos - Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa. Plataforma Investigaci\u00F3n de Estudios Multic\u00E9ntricos de la AEU., fecha de acceso: febrero 10, 2026", url: "https://piem.aeu.es/Proyectos.aspx" },
+          { num: "4", text: "Gaia-X Domain Health - bundeswirtschaftsministerium.de, fecha de acceso: febrero 10, 2026", url: "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Digitale-Welt/211116-pp-health.pdf?__blob=publicationFile&v=1" },
+          { num: "5", text: "Getting ready for the European Health Data Space (EHDS): IDERHA\u2019s plan to align with the latest EHDS requirements for the secondary use of health data. - Open Research Europe, fecha de acceso: febrero 10, 2026", url: "https://open-research-europe.ec.europa.eu/articles/4-160" },
           { num: "6", text: "Estrategia de Espacios de Datos para AseBio (Estructura FENIN).pdf", url: "" },
-          { num: "7", text: "Medtronic\u2019s Hugo\u2122 robotic surgery system for robot-assisted radical prostatectomy - PMC", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438614/" },
-          { num: "8", text: "Convocatoria de Ayudas Kit Espacios de Datos - Sede electr\u00F3nica de Red.es", url: "https://sede.red.gob.es/es/procedimientos/convocatoria-de-ayudas-para-la-transformacion-digital-de-los-sectores-productivos" },
-          { num: "9", text: "Organizaci\u00F3n de los Grupos de Trabajo - Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa", url: "https://aeu.es/GruposTrabajo.aspx" },
+          { num: "7", text: "Medtronic\u2019s Hugo\u2122 robotic surgery system for robot-assisted radical prostatectomy: a systematic review of current worldwide experiences - PMC, fecha de acceso: febrero 10, 2026", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438614/" },
+          { num: "8", text: "CONVOCATORIA DE AYUDAS PARA LA TRANSFORMACI\u00D3N DIGITAL DE LOS SECTORES PRODUCTIVOS ESTRAT\u00C9GICOS MEDIANTE EL FOMENTO DE LA ADAPTACI\u00D3N E INCORPORACI\u00D3N DE PARTICIPANTES A LOS ESPACIOS DE DATOS (KIT ESPACIOS DE DATOS) - sede electr\u00F3nica de Red.es, fecha de acceso: febrero 10, 2026", url: "https://sede.red.gob.es/es/procedimientos/convocatoria-de-ayudas-para-la-transformacion-digital-de-los-sectores-productivos" },
+          { num: "9", text: "Organizaci\u00F3n de los Grupos de Trabajo - Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa, fecha de acceso: febrero 10, 2026", url: "https://aeu.es/GruposTrabajo.aspx" },
         ].map((ref) => (
           <div key={ref.num} className="flex items-start gap-3 rounded-lg border border-[hsl(213,80%,45%,0.08)] bg-[hsl(0,0%,100%)] px-4 py-3">
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[hsl(213,80%,45%,0.1)] text-xs font-bold text-[hsl(213,80%,45%)]">{ref.num}</span>
@@ -1281,15 +1281,15 @@ export function UroSlideObrasCitadas2() {
 
       <div className="flex flex-1 flex-col gap-3 pb-4">
         {[
-          { num: "10", text: "C\u00F3digo CNAE 9412. Actividades de organizaciones profesionales - SuperContable.com", url: "https://www.supercontable.com/informacion/IAE/Codigo_CNAE_9412.Actividades_de_organizaciones_.html" },
-          { num: "11", text: "PIEM-AEU: Marco Normativo", url: "https://piem.aeu.es/formularios/marconormativo.pdf" },
-          { num: "12", text: "PIEM-AEU Vigilancia Activa C\u00E1ncer de Pr\u00F3stata - Actas Urol Esp 2015", url: "https://piem.aeu.es/proyectos/VACP/documentacion/PIEM-AEU-VA_ActasUrolEsp2015.pdf" },
-          { num: "13", text: "A major milestone for data-driven urology: Three new PIONEER+ papers published using real-world data - Uroweb", url: "https://uroweb.org/news/a-major-milestone-for-data-driven-urology-three-new-pioneer-papers-published-using-real-world-data" },
-          { num: "14", text: "Federated Learning with Research Prototypes: Multi-Center MRI-based Detection of Prostate Cancer - PMC", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10869141/" },
-          { num: "15", text: "Current management of stage T1 renal cell carcinoma in Spain - PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/41587603/" },
-          { num: "16", text: "El registro nacional de pacientes de cistinuria - IM M\u00E9dico", url: "https://www.immedicohospitalario.es/noticia/21281/el-registro-nacional-de-pacientes-de-cistinuria-una-base-de-datos-po.html" },
-          { num: "17", text: "Cirug\u00EDa Rob\u00F3tica con Da Vinci - Fundaci\u00F3 Puigvert", url: "https://www.fundacio-puigvert.es/cirugia-robotica/" },
-          { num: "18", text: "Psychometric validation of the Spanish version of EPIC-26 - PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37947846/" },
+          { num: "10", text: "C\u00F3digo CNAE 9412. Actividades de organizaciones profesionales. - SuperContable.com, fecha de acceso: febrero 10, 2026", url: "https://www.supercontable.com/informacion/IAE/Codigo_CNAE_9412.Actividades_de_organizaciones_.html" },
+          { num: "11", text: "PLATAFORMA DE INVESTIGACI\u00D3N DE ESTUDIOS MULTIC\u00C9NTRICOS DE LA AEU (PIEM-AEU) INTRODUCCI\u00D3N La informaci\u00F3n cient\u00EDfica disponib, fecha de acceso: febrero 10, 2026", url: "https://piem.aeu.es/formularios/marconormativo.pdf" },
+          { num: "12", text: "ARTICLE IN PRESS - Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa. Plataforma Investigaci\u00F3n de Estudios Multic\u00E9ntricos de la AEU., fecha de acceso: febrero 10, 2026", url: "https://piem.aeu.es/proyectos/VACP/documentacion/PIEM-AEU-VA_ActasUrolEsp2015.pdf" },
+          { num: "13", text: "A major milestone for data-driven urology: Three new PIONEER+ papers published using real-world data - Uroweb, fecha de acceso: febrero 10, 2026", url: "https://uroweb.org/news/a-major-milestone-for-data-driven-urology-three-new-pioneer-papers-published-using-real-world-data" },
+          { num: "14", text: "Federated Learning with Research Prototypes: Application to Multi-Center MRI-based Detection of Prostate Cancer with Diverse Histopathology - PMC, fecha de acceso: febrero 10, 2026", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10869141/" },
+          { num: "15", text: "Current management of stage T1 renal cell carcinoma in Spain: Results of a multicentre national registry - PubMed, fecha de acceso: febrero 10, 2026", url: "https://pubmed.ncbi.nlm.nih.gov/41587603/" },
+          { num: "16", text: "El registro nacional de pacientes de cistinuria una base de datos por llenar | IM M\u00E9dico, fecha de acceso: febrero 10, 2026", url: "https://www.immedicohospitalario.es/noticia/21281/el-registro-nacional-de-pacientes-de-cistinuria-una-base-de-datos-po.html" },
+          { num: "17", text: "Cirug\u00EDa Rob\u00F3tica con Da Vinci - Fundaci\u00F3 Puigvert, fecha de acceso: febrero 10, 2026", url: "https://www.fundacio-puigvert.es/cirugia-robotica/" },
+          { num: "18", text: "Psychometric validation of the Spanish version of the Expanded Prostate Cancer Index Composite-26 - PubMed, fecha de acceso: febrero 10, 2026", url: "https://pubmed.ncbi.nlm.nih.gov/37947846/" },
         ].map((ref) => (
           <div key={ref.num} className="flex items-start gap-3 rounded-lg border border-[hsl(213,80%,45%,0.08)] bg-[hsl(0,0%,100%)] px-4 py-3">
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[hsl(213,80%,45%,0.1)] text-xs font-bold text-[hsl(213,80%,45%)]">{ref.num}</span>
@@ -1320,15 +1320,15 @@ export function UroSlideObrasCitadas3() {
 
       <div className="flex flex-1 flex-col gap-3 pb-4">
         {[
-          { num: "19", text: "Registro upCRU - PIEM-AEU", url: "https://piem.aeu.es/proyectos/upCRU/" },
-          { num: "20", text: "IDSA Data Space Connector Report", url: "https://internationaldataspaces.org/idsa-data-space-connector-report/" },
-          { num: "21", text: "GAIA-X gets new support with European Eclipse Data Connector - Microsoft Azure Blog", url: "https://azure.microsoft.com/en-us/blog/gaiax-gets-new-support-with-european-eclipse-data-connector/" },
-          { num: "22", text: "Gaia-X-Med: Experiences with Building Dataspaces for Medical Applications - MDPI", url: "https://www.mdpi.com/1999-5903/16/12/463" },
-          { num: "23", text: "Breaking data silos: incorporating DICOM imaging standard into the OMOP CDM - PMC", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12451937/" },
-          { num: "24", text: "OMOP \u2013 Integrated Data Repository Research Services - University of Florida", url: "https://idr.ufhealth.org/research-services/omop/" },
-          { num: "25", text: "DICOMweb\u2122 - DICOM Standard", url: "https://www.dicomstandard.org/using/dicomweb" },
-          { num: "26", text: "Kit Espacios de Datos - Red.es", url: "https://www.red.es/es/iniciativas/proyectos/kit-espacios-de-datos" },
-          { num: "27", text: "Programa Kit Espacios de Datos - Espa\u00F1a Digital 2026", url: "http://espanadigital.gob.es/lineas-de-actuacion/programa-kit-espacios-de-datos" },
+          { num: "19", text: "Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa. Plataforma Investigaci\u00F3n de Estudios Multic\u00E9ntricos de la AEU., fecha de acceso: febrero 10, 2026", url: "https://piem.aeu.es/proyectos/upCRU/" },
+          { num: "20", text: "IDSA Data Space Connector Report, fecha de acceso: febrero 10, 2026", url: "https://internationaldataspaces.org/idsa-data-space-connector-report/" },
+          { num: "21", text: "GAIA-X gets new support with European Eclipse Data Connector | Microsoft Azure Blog, fecha de acceso: febrero 10, 2026", url: "https://azure.microsoft.com/en-us/blog/gaiax-gets-new-support-with-european-eclipse-data-connector/" },
+          { num: "22", text: "Gaia-X-Med: Experiences with Building Dataspaces for Medical Applications - MDPI, fecha de acceso: febrero 10, 2026", url: "https://www.mdpi.com/1999-5903/16/12/463" },
+          { num: "23", text: "Breaking data silos: incorporating the DICOM imaging standard into the OMOP CDM to enable multimodal research - PMC, fecha de acceso: febrero 10, 2026", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12451937/" },
+          { num: "24", text: "Observational Medical Outcomes Partnership \u00BB OMOP \u00BB Integrated Data Repository Research Services \u00BB Clinical and Translational Science Institute \u00BB University of Florida - UF IDR, fecha de acceso: febrero 10, 2026", url: "https://idr.ufhealth.org/research-services/omop/" },
+          { num: "25", text: "DICOMweb\u2122, fecha de acceso: febrero 10, 2026", url: "https://www.dicomstandard.org/using/dicomweb" },
+          { num: "26", text: "Kit Espacios de Datos | Red.es, fecha de acceso: febrero 10, 2026", url: "https://www.red.es/es/iniciativas/proyectos/kit-espacios-de-datos" },
+          { num: "27", text: "Programa Kit Espacios de Datos | Espa\u00F1a Digital 2026, fecha de acceso: febrero 10, 2026", url: "http://espanadigital.gob.es/lineas-de-actuacion/programa-kit-espacios-de-datos" },
         ].map((ref) => (
           <div key={ref.num} className="flex items-start gap-3 rounded-lg border border-[hsl(213,80%,45%,0.08)] bg-[hsl(0,0%,100%)] px-4 py-3">
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[hsl(213,80%,45%,0.1)] text-xs font-bold text-[hsl(213,80%,45%)]">{ref.num}</span>
