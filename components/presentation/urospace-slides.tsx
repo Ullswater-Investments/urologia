@@ -131,7 +131,7 @@ export function UroSlideVision() {
         </p>
 
         <p className="text-base leading-relaxed text-[hsl(220,15%,35%)] md:text-lg">
-          Hist{"ó"}ricamente, la generaci{"ó"}n de conocimiento en urolog{"í"}a ha dependido de registros centralizados, como los gestionados a trav{"é"}s de la Plataforma de Investigaci{"ó"}n de Estudios Multic{"é"}ntricos (PIEM). Estos registros, aunque valiosos, operan bajo una arquitectura de {'"'}silos de datos{'"'}: la informaci{"ó"}n se extrae de los hospitales, se anonimiza de forma a menudo irreversible (perdiendo granularidad y capacidad de re-contactaci{"ó"}n) y se deposita en una base de datos central est{"á"}tica.
+          Hist{"ó"}ricamente, la generaci{"ó"}n de conocimiento en urolog{"í"}a ha dependido de registros centralizados, como los gestionados a trav{"é"}s de la Plataforma de Investigaci{"ó"}n de Estudios Multic{"é"}ntricos (PIEM). Estos registros, aunque valiosos, operan bajo una arquitectura de {'"'}silos de datos{'"'}: la informaci{"ó"}n se extrae de los hospitales, se anonimiza de forma a menudo irreversible (perdiendo granularidad y capacidad de re-contactaci{"ó"}n) y se deposita en una base de datos central est{"á"}tica. Este modelo presenta fricciones insalvables en la econom{"í"}a del dato actual: resistencia de los Delegados de Protecci{"ó"}n de Datos (DPO) hospitalarios a permitir la salida de datos, obsolescencia casi inmediata de la informaci{"ó"}n tras su extracci{"ó"}n, y una incapacidad fundamental para entrenar algoritmos de Inteligencia Artificial (IA) que requieren vol{"ú"}menes masivos de datos brutos (im{"á"}genes DICOM, gen{"ó"}mica completa) que son imposibles de mover eficientemente.
         </p>
 
         <div className="rounded-xl border border-[hsl(45,85%,52%,0.3)] bg-[hsl(45,85%,52%,0.06)] p-5">
@@ -834,6 +834,18 @@ export function UroSlideMarcoLegal() {
           La creaci{"ó"}n de un espacio de datos sectorial conlleva riesgos regulatorios que deben ser mitigados desde el dise{"ñ"}o ({'"'}Compliance by Design{'"'}).
         </p>
 
+        <div className="rounded-xl border border-[hsl(45,85%,52%,0.3)] bg-[hsl(45,85%,52%,0.06)] p-5">
+          <div className="flex items-start gap-3">
+            <Scale className="mt-0.5 h-5 w-5 shrink-0 text-[hsl(45,85%,42%)]" />
+            <div>
+              <h3 className="mb-1 text-base font-semibold text-[hsl(220,25%,12%)]">5.1. Cumplimiento Antitrust (Defensa de la Competencia)</h3>
+              <p className="text-base leading-relaxed text-[hsl(220,15%,30%)]">
+                Al igual que en otros sectores sanitarios, la AEU debe vigilar que UroSpace no facilite pr{"á"}cticas colusorias, especialmente si participan entidades privadas.
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="grid gap-4 md:grid-cols-2">
           <div className="rounded-xl border-2 border-[hsl(0,75%,55%,0.3)] bg-[hsl(0,75%,55%,0.04)] p-5">
             <div className="mb-3 flex items-center gap-2">
@@ -880,14 +892,14 @@ export function UroSlideProteccionDatos() {
         </p>
 
         <div className="grid gap-4 md:grid-cols-2">
-          <div className="rounded-2xl bg-[hsl(0,0%,100%)] p-6 shadow-sm">
+          <div className="rounded-xl border border-[hsl(213,80%,45%,0.12)] bg-[hsl(0,0%,100%)] p-5 shadow-sm">
             <Lock className="mb-3 h-8 w-8 text-[hsl(213,80%,45%)]" />
             <h3 className="mb-2 text-lg font-bold text-[hsl(220,25%,12%)]">Pseudonimizaci{"ó"}n Robusta</h3>
             <p className="text-base leading-relaxed text-[hsl(220,15%,35%)]">
               Antes de que cualquier dato sea accesible por el conector EDC, debe pasar por un proceso de pseudonimizaci{"ó"}n que separe los identificadores directos (nombre, DNI) de los datos cl{"í"}nicos.
             </p>
           </div>
-          <div className="rounded-2xl bg-[hsl(0,0%,100%)] p-6 shadow-sm">
+          <div className="rounded-xl border border-[hsl(213,80%,45%,0.12)] bg-[hsl(0,0%,100%)] p-5 shadow-sm">
             <Scale className="mb-3 h-8 w-8 text-[hsl(145,55%,42%)]" />
             <h3 className="mb-2 text-lg font-bold text-[hsl(220,25%,12%)]">Comit{"é"}s de {"É"}tica (CEIm)</h3>
             <p className="text-base leading-relaxed text-[hsl(220,15%,35%)]">
@@ -1229,21 +1241,23 @@ export function UroSlideObrasCitadas1() {
           { num: "1", text: "Junta Directiva - Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa", url: "https://aeu.es/jdirectiva.aspx" },
           { num: "2", text: "ACTA JUNTA PATRONATO DE LA FIU - AEU", url: "https://aeu.es/UserFiles/EstatutosFIU.pdf" },
           { num: "3", text: "Proyectos - Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa. Plataforma Investigaci\u00F3n de Estudios Multic\u00E9ntricos de la AEU.", url: "https://piem.aeu.es/Proyectos.aspx" },
-          { num: "4", text: "Gaia-X Domain Health - Bundeswirtschaftsministerium.de", url: "https://www.bundeswirtschaftsministerium.de" },
+          { num: "4", text: "Gaia-X Domain Health - Bundeswirtschaftsministerium.de", url: "https://www.bundeswirtschaftsministerium.de/Redaktion/DE/Publikationen/Digitale-Welt/211116-pp-health.pdf?__blob=publicationFile&v=1" },
           { num: "5", text: "Getting ready for the European Health Data Space (EHDS): IDERHA\u2019s plan - Open Research Europe", url: "https://open-research-europe.ec.europa.eu/articles/4-160" },
-          { num: "6", text: "Estrategia de Espacios de Datos para AseBio (Estructura FENIN).pdf", url: "#" },
+          { num: "6", text: "Estrategia de Espacios de Datos para AseBio (Estructura FENIN).pdf", url: "" },
           { num: "7", text: "Medtronic\u2019s Hugo\u2122 robotic surgery system for robot-assisted radical prostatectomy - PMC", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC11438614/" },
-          { num: "8", text: "Convocatoria de Ayudas Kit Espacios de Datos - Sede electr\u00F3nica de Red.es", url: "https://sede.red.gob.es" },
+          { num: "8", text: "Convocatoria de Ayudas Kit Espacios de Datos - Sede electr\u00F3nica de Red.es", url: "https://sede.red.gob.es/es/procedimientos/convocatoria-de-ayudas-para-la-transformacion-digital-de-los-sectores-productivos" },
           { num: "9", text: "Organizaci\u00F3n de los Grupos de Trabajo - Asociaci\u00F3n Espa\u00F1ola de Urolog\u00EDa", url: "https://aeu.es/GruposTrabajo.aspx" },
         ].map((ref) => (
           <div key={ref.num} className="flex items-start gap-3 rounded-lg border border-[hsl(213,80%,45%,0.08)] bg-[hsl(0,0%,100%)] px-4 py-3">
             <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-[hsl(213,80%,45%,0.1)] text-xs font-bold text-[hsl(213,80%,45%)]">{ref.num}</span>
             <div className="min-w-0">
               <p className="text-sm leading-relaxed text-[hsl(220,15%,30%)]">{ref.text}</p>
-              {ref.url !== "#" && (
+              {ref.url ? (
                 <a href={ref.url} target="_blank" rel="noopener noreferrer" className="text-xs text-[hsl(213,80%,45%)] underline decoration-[hsl(213,80%,45%,0.4)] underline-offset-2 break-all">
                   {ref.url}
                 </a>
+              ) : (
+                <span className="text-xs italic text-[hsl(220,10%,55%)]">Documento interno</span>
               )}
             </div>
           </div>
@@ -1267,13 +1281,13 @@ export function UroSlideObrasCitadas2() {
 
       <div className="flex flex-1 flex-col gap-3 pb-4">
         {[
-          { num: "10", text: "C\u00F3digo CNAE 9412. Actividades de organizaciones profesionales - SuperContable.com", url: "https://www.supercontable.com" },
+          { num: "10", text: "C\u00F3digo CNAE 9412. Actividades de organizaciones profesionales - SuperContable.com", url: "https://www.supercontable.com/informacion/IAE/Codigo_CNAE_9412.Actividades_de_organizaciones_.html" },
           { num: "11", text: "PIEM-AEU: Marco Normativo", url: "https://piem.aeu.es/formularios/marconormativo.pdf" },
-          { num: "12", text: "PIEM-AEU Vigilancia Activa C\u00E1ncer de Pr\u00F3stata - Actas Urol Esp 2015", url: "https://piem.aeu.es/proyectos/VACP/" },
-          { num: "13", text: "A major milestone for data-driven urology: PIONEER+ papers using real-world data - Uroweb", url: "https://uroweb.org/news/a-major-milestone-for-data-driven-urology" },
+          { num: "12", text: "PIEM-AEU Vigilancia Activa C\u00E1ncer de Pr\u00F3stata - Actas Urol Esp 2015", url: "https://piem.aeu.es/proyectos/VACP/documentacion/PIEM-AEU-VA_ActasUrolEsp2015.pdf" },
+          { num: "13", text: "A major milestone for data-driven urology: Three new PIONEER+ papers published using real-world data - Uroweb", url: "https://uroweb.org/news/a-major-milestone-for-data-driven-urology-three-new-pioneer-papers-published-using-real-world-data" },
           { num: "14", text: "Federated Learning with Research Prototypes: Multi-Center MRI-based Detection of Prostate Cancer - PMC", url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC10869141/" },
           { num: "15", text: "Current management of stage T1 renal cell carcinoma in Spain - PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/41587603/" },
-          { num: "16", text: "El registro nacional de pacientes de cistinuria - IM M\u00E9dico", url: "https://www.immedicohospitalario.es" },
+          { num: "16", text: "El registro nacional de pacientes de cistinuria - IM M\u00E9dico", url: "https://www.immedicohospitalario.es/noticia/21281/el-registro-nacional-de-pacientes-de-cistinuria-una-base-de-datos-po.html" },
           { num: "17", text: "Cirug\u00EDa Rob\u00F3tica con Da Vinci - Fundaci\u00F3 Puigvert", url: "https://www.fundacio-puigvert.es/cirugia-robotica/" },
           { num: "18", text: "Psychometric validation of the Spanish version of EPIC-26 - PubMed", url: "https://pubmed.ncbi.nlm.nih.gov/37947846/" },
         ].map((ref) => (
