@@ -8,8 +8,8 @@ const inter = Inter({ subsets: ['latin'], variable: '--font-inter' })
 const sourceSans = Source_Sans_3({ subsets: ['latin'], variable: '--font-source-sans' })
 
 export const metadata: Metadata = {
-  title: 'BioIntelligence Spain - Espacio de Datos Federado para Biotecnologia',
-  description: 'Estrategia de Federacion de Datos para el Ecosistema Biotecnologico Espanol bajo AseBio - biotecnologia.globaldatacare.es',
+  title: 'UroSpace Spain - Arquitectura de Referencia y Estrategia de Despliegue para el Espacio de Datos Federado de la AEU',
+  description: 'Espacio de Datos Federado de la Asociacion Espanola de Urologia - Arquitectura de Referencia IDS, OMOP CDM, Compute-to-Data bajo Gaia-X - urologia.globaldatacare.es',
 }
 
 export default function RootLayout({
